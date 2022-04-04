@@ -1,23 +1,20 @@
 {
-  "name": "to_do_list_api",
+  "name": "to-do-list_api",
   "version": "1.0.0",
-  "description": "API for to do list app",
-  "main": "server.js",
+  "description": "API for To Do List with Node.js, Mongodb and Express",
+  "main": "server",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "https://jesse-leite-softwares.onrender.com",
+  "author": "Jessé Alves Leite",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-async-handler": "^1.1.4",
-    "mongoose": "^5.11.19",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^5.11.15",
     "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
   }
 }
