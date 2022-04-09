@@ -9,6 +9,12 @@ npm install body-parser dotenv express mongodb mongoose<br>
 npm i nodemon -D<br>
 npm audit fix<br>
 npm install nodemon<br>
-npm run start
+npm start
 <br><br>
-The application must load at the url http://localhost:5000
+The application must load at the url http://localhost:9000
+<br><br>
+{
+  "name": "Jesse",
+  "age": 23,
+  "email": "jesse@email.com"
+}
