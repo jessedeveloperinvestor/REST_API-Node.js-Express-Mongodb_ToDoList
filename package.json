@@ -1,20 +1,22 @@
 {
-  "name": "to-do-list_api",
+  "name": "REST_API-Node.js-Express-Mongodb_Users",
   "version": "1.0.0",
-  "description": "API for To Do List with Node.js, Mongodb and Express",
-  "main": "server",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "nodemon src/index.js"
   },
+  "keywords": [],
   "author": "Jessé Alves Leite",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "colors": "^1.4.0",
-    "dotenv": "^16.0.0",
+    "body-parser": "^1.20.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.3",
-    "express-async-handler": "^1.2.0",
-    "mongoose": "^5.11.15",
-    "morgan": "^1.10.0"
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
